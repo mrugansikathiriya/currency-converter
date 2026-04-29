@@ -42,7 +42,7 @@ The app also displays country flags dynamically based on selected currencies, im
 
 ## ⚙️ Live Demo
 
-https://mrugansikathiriya.github.io/currency-converter/index.html
+Demo online : [Click Here](https://mrugansikathiriya.github.io/currency-converter/index.html)
 ---
 
 ## 🔗 API Used
