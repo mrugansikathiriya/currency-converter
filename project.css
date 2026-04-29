@@ -1,0 +1,148 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 380px;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.amount {
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+
+.amount p {
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.amount input {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.amount input:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 6px rgba(108, 99, 255, 0.4);
+}
+
+.drop1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.from,
+.to {
+    flex: 1;
+    text-align: left;
+}
+
+.from p,
+.to p {
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #f9f9f9;
+    padding: 0.4rem 0.6rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.select-container img {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+}
+
+select {
+    border: none;
+    background: transparent;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+}
+
+i.fa-arrow-right-arrow-left {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    color: #6c63ff;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+i.fa-arrow-right-arrow-left:hover {
+    transform: rotate(180deg);
+}
+
+.msg {
+    margin: 1rem 0;
+    font-weight: 600;
+    color: #444;
+    background: #eef2ff;
+    padding: 0.6rem;
+    border-radius: 8px;
+}
+
+button {
+    background: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background: #574b90;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
